@@ -9,10 +9,10 @@ try:
 except Exception:
   st.write(dir(googlesearch))
 
-def f(a,b,c):
+def f(a, b, c):
     st.write(valid(a, b, c))
 
-def b(a):
+def b(a, b):
     return None
 
 number = st.slider(min_value=1, max_value=80, step=1, label="entrez le nombre de recherches a effectué")
