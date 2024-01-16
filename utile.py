@@ -9,7 +9,7 @@ except Exception:
 def valid(a,b,d):
   if True:
     import textwrap
-    d = int(d) if d.isdigit() else 7
+
 
 
     text = ""
