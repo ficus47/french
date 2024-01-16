@@ -12,7 +12,7 @@ except Exception:
 def f(a, b, c):
     st.write(valid(a, b, c))
 
-def b(a, b):
+def b():
   st.balloons
   st.snow()
 
