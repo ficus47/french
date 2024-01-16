@@ -13,7 +13,7 @@ def f(a, b, c):
     st.write(valid(a, b, c))
 
 def b():
-  st.balloons
+  st.balloons()
   st.snow()
 
 number = st.slider(min_value=1, max_value=80, step=1, label="entrez le nombre de recherches a effectué")
