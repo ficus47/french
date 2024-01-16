@@ -1,8 +1,9 @@
 from streamlit import write
+import googlesearch
 
 try:
   from googlesearch import search
-  import googlesearch
+  
 except Exception:
   write(dir(googlesearch))
 def valid(a,b,d):
