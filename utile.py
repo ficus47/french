@@ -7,7 +7,7 @@ try:
 except Exception:
   write(dir(googlesearch))
   
-write(Search.__args__)
+write(Search.args)
 def valid(a,b,d):
   try:
     import textwrap
