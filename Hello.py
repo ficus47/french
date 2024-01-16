@@ -4,7 +4,7 @@ from utile import valid
 import googlesearch
 
 try:
-  from googlesearch import search
+  from googlesearch import Search
   
 except Exception:
   st.write(dir(googlesearch))
