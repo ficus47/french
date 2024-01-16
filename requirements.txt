@@ -157,3 +157,4 @@ webencodings==0.5.1
 websocket-client==1.7.0
 xmod==1.8.1
 zipp==3.17.0
+googlesearch-python==1.2.3
