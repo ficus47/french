@@ -2,7 +2,7 @@ from streamlit import write
 import googlesearch
 
 try:
-  from googlesearch import search
+  from googlesearch import Search
   
 except Exception:
   write(dir(googlesearch))
