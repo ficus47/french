@@ -1,7 +1,10 @@
-from googlesearch import search
-import googlesearch
+from streamlit import write
 
-print(dir(googlesearch))
+try:
+  from googlesearch import search
+  import googlesearch
+except Exception:
+  write(dir(googlesearch))
 def valid(a,b,d):
   if True:
     import textwrap
