@@ -1,11 +1,12 @@
 from streamlit import write
 import googlesearch
+import inspect
 
 try:
   from googlesearch import Search
   
 except Exception:
-  write(dir(googlesearch))
+  write(inspect.signature(Search.__init__).parameters)
   
 write(Search.args)
 def valid(a,b,d):
