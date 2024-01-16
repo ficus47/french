@@ -6,8 +6,9 @@ try:
   
 except Exception:
   write(dir(googlesearch))
+  write(Search.__args__)
 def valid(a,b,d):
-  if True:
+  try:
     import textwrap
 
 
@@ -35,4 +36,5 @@ def valid(a,b,d):
     print(je)
     return je
 
-
+  except Exception:
+    return "error"
