@@ -1,6 +1,7 @@
 from googlesearch import search
+import googlesearch
 
-
+print(dir(googlesearch))
 def valid(a,b,d):
   if True:
     import textwrap
