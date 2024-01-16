@@ -4,6 +4,9 @@ from utile import valid
 def f(a,b,c):
     st.write(valid(a, b, c))
 
+def b(a):
+    return None
+
 number = st.slider(min_value=1, max_value=80, step=1, label="entrez le nombre de recherches a effectué")
 mots = st.text_area("entrez les mots a rechercher")
 ban_words = st.text_area("entrez les mots ne devant pas figurer dans les recherches")
@@ -11,5 +14,4 @@ ban_words = st.text_area("entrez les mots ne devant pas figurer dans les recherc
 st.button("entrez .", on_click=lambda : f(mots, ban_words, number))
 st.button("quelque chose de fun .", on_click=lambda:st.balloons())
 st.button("autre chose de fun .", on_click=lambda:st.snow())
-st.button("derniere chose de fun .", on_click=lambda:st.balloons;st.snow())
-
+st.button("derniere chose de fun .", on_click=lambda:b(st.balloons,st.snow()))
