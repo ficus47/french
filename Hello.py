@@ -1,14 +1,6 @@
 import streamlit as st
 from utile import valid
 
-import googlesearch
-
-try:
-  from googlesearch import Search
-  
-except Exception:
-  st.write(dir(googlesearch))
-
 def f(a, b, c):
     st.write(valid(a, b, c))
 
